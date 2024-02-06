@@ -1,0 +1,53 @@
+ /* components/form/form.css */
+.page-heading {
+    text-align: center;
+    color: #f9f7f7;
+    font-size: 36px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(242, 238, 238, 0.8);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #a2e5e8;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #0f0d10;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Add any additional styles as needed */
+  
